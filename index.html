@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jujutsu Kaisen Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        h1, h2, a {
+            color: red;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+
+        section {
+            background-color: #121212;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            
+        }
+
+        section:hover{
+            background-color: #1d1d1d;
+        }
+
+        iframe:hover{
+            box-shadow: 0 0 10px red;
+        }
+
+        a:hover {
+            text-shadow: 0 0 10px rgb(192, 41, 41);
+        }
+
+
+        img, iframe {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        iframe {
+            height: 250px;
+        }
+
+        .contenedor {
+            display: flex;
+            gap: 20px;
+        }
+
+        .item {
+            flex: 1;
+            padding: 5px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        #boton {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        #boton:hover {
+            background-color: rgb(209, 0, 0);
+        }
+
+        input{
+            background-color: #252525;
+            color: white;
+        }
+
+        textarea{
+            background-color: #252525;
+            color: white;
+        }
+
+        header, footer {
+            text-align: center;
+            background-color: #1d1d1d;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./jjk.webp" alt="imagen de ujutsu Kaisen"/>
+        <h1>Jujutsu Kaisen</h1>
+        <p>Extensión de Dominio: Vacío Inconmensurable</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre la serie</h2>
+            <div class="contenedor">
+                <div class="item">
+                    <p>
+                        ¡Prepárate para la acción! <strong>Jujutsu Kaisen</strong>, la obra que redefinió el género shonen,
+                        fue creada por el genio <em>Gege Akutami</em>. La historia arranca con el valiente 
+                        <b>Yuji Itadori</b>, un joven con una fuerza física inhumana que se enfrenta a un 
+                        destino aterrador: se convierte en el cuerpo huésped de <b>Sukuna</b>, el Rey de 
+                        las Maldiciones. Bajo la tutela del hechicero invencible, <b>Satoru Gojo</b>, 
+                        Yuji es arrojado de lleno a una guerra secreta y brutal donde debe dominar la 
+                        energía maldita para luchar contra seres sobrenaturales que buscan aniquilar 
+                        a la humanidad. ¿Podrá Yuji controlar al monstruo en su interior o será consumido 
+                        por la oscuridad?
+                    </p>
+                    <p>
+                        <a
+                        href="https://www.crunchyroll.com/es/series/GRDV0019R/jujutsu-kaisen"
+                        target="_blank"
+                        >Mira la serie aquí</a
+                        >
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="./sukuna.webp" alt="Personajes de Jujutsu Kaisen" />
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Personajes principales</h2>
+            <div class="contenedor">
+                <div class="item">
+                    <ul>
+                        <li><b>Yuji Itadori:</b> Protagonista con gran fuerza física y huésped de una maldición ancestral.</li>
+                        <li><b>Megumi Fushiguro:</b> Hechicero serio, estratégico, y un genio en potencia capaz de invocar bestias shikigami.</li>
+                        <li><b>Nobara Kugisaki:</b> Hechicera valiente, decidida, y experta en ataques a distancia con su Técnica de Muñeco de Paja.</li>
+                        <li><b>Satoru Gojo:</b> El hechicero más fuerte del mundo, conocido por su habilidad para manipular el espacio-tiempo.</li>
+                        <li><b>Kento Nanami:</b> Un ex-asalariado profesional y hechicero de primer grado con una mentalidad pragmática y un fuerte sentido del deber.</li>
+                        <li><b>Maki Zenin:</b> Guerrera de élite que lucha únicamente con armas malditas debido a sus limitaciones de energía maldita.</li>
+                        <li><b>Ryomen Sukuna:</b> El temido Rey de las Maldiciones, cuya única motivación es el caos y la destrucción.</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <iframe
+                        src="https://www.youtube.com/embed/5yb2N3pnztU"
+                        title="Tráiler de Jujutsu Kaisen"
+                    ></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Únete al Club de Fans</h2>
+            <p>Completa este formulario para recibir noticias y contenido exclusivo:</p>
+
+            <form>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Maycol Porras" />
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="mporrasa@ucenfotec.ac.cr"/>
+
+                <label for="personaje">Personaje favorito:</label>
+                <input type="text" id="personaje" name="personaje" placeholder="Satoru Gojo"/>
+
+                <label for="comentario">¿Por qué te gusta Jujutsu Kaisen?</label>
+                <textarea id="comentario" name="comentario" rows="4" placeholder="Me gusta por su animación..."></textarea>
+
+                <label>
+                    <input type="checkbox" name="suscribir" /> Deseo recibir noticias y actualizaciones
+                </label>
+
+                <label>
+                    <input type="checkbox" name="suscribir" required /> Acepto los términos y condiciones
+                </label>
+
+                <input id="boton" type="submit" value="Enviar" />
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Jujutsu Kaisen Page</p>
+        <p>
+            <a
+            href="https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Kaisen_Wiki"
+            target="_blank"
+            >Wiki oficial</a
+            >
+        </p>
+    </footer>
+</body>
+</html>
